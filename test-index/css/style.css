@@ -1,0 +1,716 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header-modern,.button-joinUs,.text span,.footer-about_us,.footer-latestTwits,.footer-instagram-head  {
+	font-family: "roboto-black";
+}
+.contact-address,.contact-phone,.contact-email {
+	font-family: "roboto-bold";
+}
+.header-publish,.about-agency,.contact-info {
+	font-family: "roboto-light";
+}
+.header-menu a,.about-text,.text,.contact-text,.footer-about-text,.footer-latest-list {
+	font-family: "roboto-regular";
+}
+
+
+
+
+.header {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.header-bg {
+	width: 100%;
+}
+
+.header-relative {
+	width: 100%;
+	height: 100%;
+	padding: 3% 7% 0 7%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+.header-logo {
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+}
+.header-logo a {
+	display: block;
+	font-size: 0;
+}
+.header-menu {
+	width: 31%;
+	text-align: right;
+}
+.header-menu ul {
+	margin: 0;
+	padding: 0;
+}
+.header-menu li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 5%;
+}
+.header-menu li:first-child {
+	padding-left: 0;
+}
+.header-menu a {
+	list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.header-logo,.header-menu {
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-modern,.header-publish,.header-arrow {
+	text-align: center;
+}
+.header-modern {
+	font-size: 14px;
+	color: #fff;
+	margin: 8% 0 5% 0;
+}
+.header-publish {
+	width: 73%;
+	margin: 0 auto;
+	font-size: 60px;
+	color: #fff;
+}
+.header-arrow {
+	width: 4%;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	bottom: 7%;
+	transform: translate(-50%, 0);
+}
+.header-arrow a {
+	display: inline-block;
+	width: 100%;
+}
+.header-arrow img {
+	width: 100%;
+}
+
+
+
+
+
+
+.about-column {
+	background: #f6f6f6;
+	text-align: center;
+	padding: 70px 0 90px 0;
+}
+.about-agency {
+	font-size: 44px;
+	color: #171717;
+}
+.about-text {
+	width: 50%;
+	margin: 50px auto;
+	font-size: 15px;
+	color: #5f5f5f;
+}
+.button-joinUs {
+	background: #252525;
+	outline: none;
+	border: none;
+	padding: 19px 63px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #fff;
+}
+.popup_fon {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 4;
+	background-color: rgba( 123, 123, 123, 0.3);
+	box-sizing: border-box;
+}
+.popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 56%;
+	padding: 3%;
+	box-sizing: border-box;
+	background: #fff;
+	display: none;
+	z-index: 5;
+}
+.close {
+	position: absolute;
+	top: 0;
+	left: 105%;
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.joinUs {
+	font-family: "roboto-light";
+	font-size: 44px;
+	color: #252525;
+	margin-bottom: 5%;
+}
+.comment {
+	resize: none;
+}
+.popup-form input,.popup-form textarea {
+	outline: none;
+	border: none;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.popup-form input::placeholder {
+	color: #858585;
+}
+.name,.phone,.email,.comment {
+	font-family: "roboto-regular";
+	font-size: 14px;
+	background: #f5f5f5;
+	padding: 15px;
+}
+.name {
+	float: left;
+}
+.phone {
+	float: right;
+}
+.name,.phone {
+	width: 44%;
+}
+.email,.popup-form textarea {
+	width: 100%;
+	box-sizing: border-box;
+}
+.popup-form textarea {
+	font-family: "roboto-regular";
+	font-size: 14px;
+	color: #858585;
+}
+.email {
+	margin: 4% 0;
+}
+.hidden{
+	display: none;
+}
+.popup_send {
+	font-family: "roboto-black";
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	outline: none;
+	background: #252525;
+	padding: 20px 35px;
+	margin-top: 5%;
+	cursor: pointer;
+}
+
+
+
+
+
+.number-column {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.number-bg {
+	width: 100%;
+}
+.number-all {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	padding-left: 7%;
+	box-sizing: border-box;
+	transform: translate(0, -50%);
+}
+.number-one-icon,.text {
+	display: inline-block;
+	vertical-align: middle;
+}
+.number-one,.number-two,.number-three,.number-four {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5%;
+}
+.number-one {
+	margin: 0;
+}
+.text {
+	font-size: 14px;
+	color: #fff;
+	margin-left: 20px;
+}
+.text span {
+	font-size: 18px;
+}
+
+
+
+
+
+.clients-column {
+	padding: 4.7% 10%;
+}
+.clients-list ul {
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	font-size: 0;
+}
+.clients-list ul:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+.clients-list li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.clients-list a {
+	display: block;
+}
+
+
+
+
+
+.contact-column {
+	border-top: 1px solid #ececec;
+	background: #f6f6f6;
+	padding: 6% 7%;
+}
+.contact-sidebarL {
+	width: 34%;
+}
+.contact-sidebarR {
+	width: 49%;	
+	float: right;
+}
+.contact-sidebarL,.contact-sidebarR {
+	display: inline-block;
+	vertical-align: top;
+}
+.contact-info {
+	font-size: 44px;
+	color: #171717;
+}
+.contact-text {
+	margin: 45px 0 35px 0;
+	font-size: 15px;
+	color: #5f5f5f;
+}
+.contact-phone {
+	margin: 20px 0;
+}
+.contact-address,.contact-phone,.contact-email {
+	font-size: 15px;
+	color: #5f5f5f;
+}
+.contact-address span,.contact-phone span,.contact-email span {
+	color: #171717;
+	font-weight: bold;
+}
+.contact-sidebarR a {
+	display: block;
+	font-size: 0;
+}
+.contact-sidebarR img {
+	width: 100%;
+	box-shadow: 0px 5px 15px 1px #d1d1d2;
+}
+
+
+
+
+
+.footer {
+	background: #0a0a0a;
+	position: relative;
+	top: 0;left: 0;
+	padding: 8% 10%;
+}
+.footer-about {
+	width: 32%;
+	color: #fff;
+}
+.footer-about_us,.footer-latestTwits,.footer-instagram-head {
+	font-size: 20px;
+	color: #fff;
+}
+.footer-about-text {
+	font-size: 15px;
+	color: #e9e9e9;
+	margin: 35px 0;
+}
+.footer-about-icon ul {
+	margin: 0;
+	padding: 0;
+}
+.footer-about-icon li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 1%;
+}
+.footer-latest {
+	width: 29%;
+	margin-left: 1%;
+}
+.footer-latest-list ul {
+	margin: 0;
+	list-style-image: url(../img/twitter.png);
+}
+.footer-latest-list li {
+	font-size: 15px;
+	color: #e9e9e9;
+	margin-top: 5%;
+}
+.footer-about,.footer-latest,.footer-instagram {
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-instagram {
+	float: right;
+	width: 35%;
+	box-sizing: border-box;
+}
+.footer-instagram-icon {
+	width: 100%;
+	box-sizing: border-box;
+}
+.footer-instagram-icon ul {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.footer-instagram-icon li {
+	display: inline-block;
+	width: 23%;
+	box-sizing: border-box;
+	margin: 1%;
+}
+.footer-instagram-icon a {
+	display: block;
+	font-size: 0;
+}
+.footer-instagram-icon img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1360px) {
+
+}
+@media (min-width: 1435px) {
+	.number-one, .number-two, .number-three, .number-four {
+		margin-left: 8%;
+	}
+	.number-one {
+		margin-left: 0;
+	}
+}
+@media (min-width: 1595px) {
+	.button-joinUs,.header-menu a,.header-modern,.about-text,.text,.contact-text,.contact-address, .contact-phone, .contact-email,.footer-about-text,.footer-latest-list li {
+		font-size: 18px;
+	}
+	.footer-about_us, .footer-latestTwits, .footer-instagram-head {
+		font-size: 24px;
+	}
+}
+@media (min-width: 1915px) {
+	.text span,.button-joinUs,.header-menu a,.header-modern,.about-text,.text,.contact-text,.contact-address, .contact-phone, .contact-email,.footer-about-text,.footer-latest-list li {
+		font-size: 24px;
+	}
+	.footer-about_us, .footer-latestTwits, .footer-instagram-head {
+		font-size: 30px;
+	}
+	.header-publish {
+		font-size: 85px;
+	}
+	.about-agency,.contact-info {
+		font-size: 60px;
+	}
+	.number-one, .number-two, .number-three, .number-four {
+		margin-left: 6%;
+	}
+	.number-one {
+		margin-left: 0;
+	}
+	.header-menu {
+		width: 40%;
+	}
+	.clients-list li {
+		width: 14%;
+	}
+	.clients-list li img,.footer-about-icon li img {
+		width: 100%;
+	}
+	.footer-about-icon li {
+		width: 5%;
+	}
+}
+@media (min-width: 2555px) {
+	.text span,.button-joinUs,.header-menu a,.header-modern,.about-text,.text,.contact-text,.contact-address, .contact-phone, .contact-email,.footer-about-text,.footer-latest-list li {
+		font-size: 32px;
+	}
+	.footer-about_us, .footer-latestTwits, .footer-instagram-head {
+		font-size: 38px;
+	}
+	.header-publish {
+		font-size: 95px;
+	}
+	.about-agency,.contact-info {
+		font-size: 72px;
+	}
+	.number-one, .number-two, .number-three, .number-four {
+		width: 22%;
+		margin-left: 2%;
+	}
+	.number-one {
+		margin-left: 0;
+	}
+	.number-one-icon {
+		width: 13%;
+	}
+	.number-one-icon img {
+		width: 100%;
+	}
+}
+
+
+
+
+
+@media (max-width: 1280px) {
+	.header-relative {
+		padding: 2% 2% 0 2%;
+	}
+	.header-publish {
+		width: 100%;
+	}
+	.number-all {
+		padding: 0 2%;
+		box-sizing: border-box;
+	}
+	.number-all {
+		text-align: center;
+	}
+	.number-one,.number-two, .number-three, .number-four {
+		margin-left: 3%;
+		text-align: left;
+	}
+	.number-one {
+		margin-left: 0;
+	}
+	.contact-sidebarL {
+		width: 40%;
+	}
+	.text {
+		margin-left: 10px;
+	}
+}
+@media (max-width: 1022px) {
+	.text span,.button-joinUs,.header-menu a,.header-modern,.about-text,.text,.contact-text,.contact-address, .contact-phone, .contact-email,.footer-about-text,.footer-latest-list li {
+		font-size: 14px;
+	}
+	.footer-about_us, .footer-latestTwits, .footer-instagram-head {
+		font-size: 16px;
+	}
+	.header-publish {
+		font-size: 44px;
+	}
+	.about-agency,.contact-info {
+		font-size: 60px;
+	}
+	.header-logo {
+		margin: 0;
+		transform: none;
+	}
+	.header-menu {
+		width: 80%;
+	}
+	.header-modern {
+		margin: 4% 0 2% 0;
+	}
+	.header-arrow {
+		width: 6%;
+	}
+	.about-column,.clients-column,.contact-column,.footer {
+		padding: 2%;
+	}
+	.about-text {
+		width: 100%;
+	}
+	.number-one,.number-three {
+		
+	}
+	.number-two,.number-four {
+
+	}
+	.number-four {
+		margin-left: 0;
+	}
+
+}
+@media (max-width: 800px) {
+	.name, .phone {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.phone {
+		margin-top: 4%;
+	}
+}
+@media (max-width: 767px) {
+	.header-menu {
+		width: 75%;
+	}
+	.header-menu li {
+		padding: 0 8%;
+	}
+	.header-arrow {
+		display: none;
+	}
+	.number-two,.number-three {
+		margin-left: 0;
+	}
+	.number-one,.number-three {
+		float: left;
+	}
+	.number-two,.number-four {
+		float: right;
+	}
+	.contact-sidebarL,.contact-sidebarR {
+		width: 100%;
+	}
+	.contact-sidebarR {
+		float: none;
+	}
+	.footer-about,.footer-latest {
+		width: 49%;
+	}
+	.footer-instagram {
+		float: none;
+		margin-top: 5px;
+		text-align: center;
+		width: 100%;
+	}
+}
+@media (max-width: 640px) {
+	.text span,.button-joinUs,.header-menu a,.header-modern,.about-text,.text,.contact-text,.contact-address, .contact-phone, .contact-email,.footer-about-text,.footer-latest-list li {
+		font-size: 14px;
+	}
+	.footer-about_us, .footer-latestTwits, .footer-instagram-head {
+		font-size: 16px;
+	}
+	.header-publish {
+		font-size: 38px;
+	}
+	.about-agency,.contact-info {
+		font-size: 42px;
+	}
+	.header-logo {
+		width: 20%;
+	}
+	.header-logo img {
+		width: 100%;
+	}
+	.header-menu {
+		width: 78%;
+	}
+	.header-menu li {
+		padding: 0 6%;
+	}
+	.close {
+		left: 100%;
+	}
+	.popup {
+		width: 80%;
+		padding: 2%;
+	}
+}
+@media (max-width: 480px) {
+		.text span,.button-joinUs,.header-menu a,.header-modern,.about-text,.text,.contact-text,.contact-address, .contact-phone, .contact-email,.footer-about-text,.footer-latest-list li {
+		font-size: 12px;
+	}
+	.footer-about_us, .footer-latestTwits, .footer-instagram-head {
+		font-size: 14px;
+	}
+	.header-publish {
+		font-size: 24px;
+	}
+	.about-agency,.contact-info {
+		font-size: 32px;
+	}
+	.header-menu li {
+		padding: 0 4%;
+	}
+	.about-text {
+		margin: 20px 0;
+	}
+	.number-bg {
+		display: none;
+	}
+	.number-all {
+		position: relative;
+		transform: none;
+		padding: 2%;
+		background: #1e1e1e;
+	}
+	.number-one,.number-two, .number-three, .number-four {
+		float: none;
+	}
+	.popup {
+		width: 98%;
+		height: 98%;
+	}
+	.close {
+		left: initial;
+		right: 0;
+		background: #000;
+	}
+}
+@media (max-width: 425px) {
+	.footer-about, .footer-latest {
+		width: 48%;
+	}
+}
+@media (max-width: 374px) {
+	.clients-list li:last-child {
+		display: none;
+	}
+}
+@media (max-width: 320px) {
+	
+}

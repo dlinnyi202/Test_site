@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.head {
+	position: relative;
+}
+.background {
+	width: 100%;
+}
+.center {
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	width: 36%;
+}
+.mart {
+	font-family: "roboto-light";
+	font-size: 48px;
+	color: #000;
+}
+.podarok {
+	font-family: "roboto-bold";
+	font-size: 39px;
+	font-weight: bold;
+	color: #90b308;
+}
+#clockdiv {
+	width: 100%;
+	text-align: left;
+	margin: 20px 0;
+}
+#clockdiv > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 3%;
+}
+#clockdiv > div:first-child {
+	margin-left: 0;
+}
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 12px;
+  background: #f76caf;
+  display: inline-block;
+  font-family: "roboto-regular";
+  font-size: 58px;
+  color: #fff;
+}
+.smalltext {
+	font-family: "roboto-light";
+	font-size: 23px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+
+
+@media (min-width: 1360px) {
+
+}
+@media (min-width: 1435px) {
+
+}
+@media (min-width: 1595px) {
+	.mart {
+		font-size: 56px;
+	}
+	.podarok {
+		font-size: 46px;
+	}
+	#clockdiv div > span {
+		font-size: 72px;
+	}
+	.smalltext {
+		font-size: 35px;
+	}
+}
+@media (min-width: 1915px) {
+	.mart {
+		font-size: 68px;
+	}
+	.podarok {
+		font-size: 55px;
+	}
+	#clockdiv div > span {
+		font-size: 100px;
+	}
+	.smalltext {
+		font-size: 45px;
+	}
+}
+@media (min-width: 2555px) {
+	.mart {
+		font-size: 90px;
+	}
+	.podarok {
+		font-size: 73px;
+	}
+	#clockdiv div > span {
+		font-size: 150px;
+	}
+	.smalltext {
+		font-size: 55px;
+	}
+}
+
+
+
+@media (max-width: 1280px) {
+	.mart {
+		font-size: 45px;
+	}
+	#clockdiv div > span {
+		font-size: 55px;
+	}
+	.smalltext {
+		font-size: 29px;
+	}
+	.podarok {
+		font-size: 37px;
+	}
+}
+@media (max-width: 1024px) {
+	.mart {
+		font-size: 36px;
+	}
+	#clockdiv div > span {
+		font-size: 35px;
+	}
+	.smalltext {
+		font-size: 20px;
+	}
+	.podarok {
+		font-size: 29px;
+	}
+}
+@media (max-width: 800px) {
+	.center {
+		left: 0;
+		top: 80%;
+		width: 100%; 
+		box-sizing: border-box;
+		text-align: center;
+	}
+	#clockdiv {
+		text-align: center;
+	}
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 640px) {
+	.center {
+		top: 90%;
+	}
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 425px) {
+
+}
+@media (max-width: 374px) {
+	.mart {
+		font-size: 30px;
+	}
+	#clockdiv div > span {
+		font-size: 20px;
+	}
+	.smalltext {
+		font-size: 20px;
+	}
+	.podarok {
+		font-size: 24px;
+	}
+}
+@media (max-width: 320px) {
+
+}

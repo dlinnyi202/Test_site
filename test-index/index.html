@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="header">
+		<img src="img/header-background.png" alt="header-background" class="header-bg">
+		<div class="header-relative">
+			<div class="header-logo">
+				<a href="#">
+					<img src="img/header-logo.png" alt="header-logo">
+				</a>
+			</div>
+			<div class="header-menu">
+				<ul>
+					<li>
+						<a href="#">
+							WORK
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							ABOUT
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							BLOG
+						</a>
+					</li>
+					<li>
+						<a href="#contact-column">
+							CONTACT
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header-modern">
+				MODERN BRANDING AGENCY
+			</div>
+			<div class="header-publish">
+				We are about to change the way you publish on web
+			</div>
+			<div class="header-arrow">
+				<a href="#footer">
+					<img src="img/header-arrow.png" alt="header-arrow">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="about-column">
+			<div class="about-agency">
+				ABOUT OUR AGENCY
+			</div>
+			<div class="about-text">
+				We are a new brand studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps. Clever use of technology and lean processes enable us to work faster and smarter.
+			</div>
+			<form>
+				<button type="button" class="button-joinUs">
+					JOIN US
+				</button>
+			</form>
+			<div class="popup_fon"></div>
+			<div class="popup">
+				<button class="close">
+					<img src="img/close.png" alt="close">
+				</button>
+				<div class="joinUs">
+					Join Us
+				</div>
+				<form class="popup-form" onsubmit="return validate();">
+					<input type="text" placeholder="Your Name" id="name" class="name">
+					<input type="number" placeholder="Your Phone" id="phone" class="phone">
+					<input type="text" placeholder="Your Email" id="email" class="email">
+					<label>
+						<textarea placeholder="Comment" 
+								rows="7" 
+								class="comment" 
+								id="comment"
+								name="message"></textarea>
+					</label>
+					<button type="submit" class="popup_send">
+						SEND MESSAGE
+					</button>
+				</form>
+			</div>
+		</div>
+		<div class="number-column">
+			<img src="img/number-bg.png" alt="number-bg" class="number-bg">
+			<div class="number-all">
+				<div class="number-one">
+					<div class="number-one-icon">
+						<img src="img/number1.png" alt="number-one-icon">
+					</div>
+					<div class="text">
+						<span>548</span><br>
+						PROJECTS COMPLETED
+					</div>
+				</div>
+				<div class="number-two">
+					<div class="number-one-icon">
+						<img src="img/number2.png" alt="number-two-icon">
+					</div>
+					<div class="text">
+						<span>1465</span><br>
+						PROJECTS COMPLETED
+					</div>
+				</div>
+				<div class="number-three">
+					<div class="number-one-icon">
+						<img src="img/number3.png" alt="number-three-icon">
+					</div>
+					<div class="text">
+						<span>612</span><br>
+						PROJECTS COMPLETED
+					</div>
+				</div>
+				<div class="number-four">
+					<div class="number-one-icon">
+						<img src="img/number4.png" alt="number-four-icon">
+					</div>
+					<div class="text">
+						<span>735</span><br>
+						PROJECTS COMPLETED
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clients-column">
+			<div class="clients-list">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/client1.png" alt="client1">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/client2.png" alt="client1">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/client3.png" alt="client1">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/client4.png" alt="client1">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/client5.png" alt="client1">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="contact-column" id="contact-column">
+			<div class="contact-sidebarL">
+				<div class="contact-info">
+					CONTACT INFO
+				</div>
+				<div class="contact-text">
+					Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.
+				</div>
+				<div class="contact-address">
+					<span>Address:</span> 10111 Santa Monica Boulevard, LA
+				</div>
+				<div class="contact-phone">
+					<span>Phone:</span> +44 987 065 908
+				</div>
+				<div class="contact-email">
+					<span>Email:</span> info@aaagency.com
+				</div>
+			</div>
+			<div class="contact-sidebarR">
+				<a href="#">
+					<img src="img/contact-maps.png" alt="maps">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="footer" id="footer" >
+		<div class="footer-about">
+			<div class="footer-about_us">
+				About Us
+			</div>
+			<div class="footer-about-text">
+				Aenean mattis augue in arcu tempor bibendum. Nam euismod facilisis magna, quis pharetra turpis molestie eu. Integer feugiat arcu sit amet leo ullamcorper feugiat efficitur.
+			</div>
+			<div class="footer-about-icon">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/facebook.png" alt="facebook">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/twitter.png" alt="twitter">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/google.png" alt="google">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/behance.png" alt="behance">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/pinters.png" alt="pinters">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/instagram.png" alt="instagram">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-latest">
+			<div class="footer-latestTwits">
+				Latest Twits
+			</div>
+			<div class="footer-latest-list">
+				<ul>
+					<li>
+						Duis eget finibus nibh. Vivamus sagittis vulputate risus ac tincidunt.
+					</li>
+					<li>
+						Nam semper tortor sit amet arcu malesu ada, a sagittis tellus facilisis.
+					</li>
+					<li>
+						Etiam cursus, tortor id pretium tincidunt, justo leo porta magna.
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-instagram">
+			<div class="footer-instagram-head">
+				Instagram
+			</div>
+			<div class="footer-instagram-icon">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/instagram1.png" alt="instagram1">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/instagram2.png" alt="instagram2">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/instagram3.png" alt="instagram3">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/instagram4.png" alt="instagram4">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/instagram5.png" alt="instagram5">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/instagram6.png" alt="instagram6">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/instagram7.png" alt="instagram7">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/instagram8.png" alt="instagram8">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="css/index.js"></script>
+
+</body>
+</html>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
