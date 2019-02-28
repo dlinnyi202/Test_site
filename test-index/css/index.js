@@ -25,12 +25,16 @@ function validate(){
 		phone.style.border = '2px solid orange';
 		phone.style.borderRadius = '5px';
 		isValidForm = false;
+	} else{
+		phone.style.border = 'initial';
 	}
 	
 	if(!email.value.match(/\S+@\S+\.\S+/i)){
 		email.style.border = '2px solid orange';
 		email.style.borderRadius = '5px';
 		isValidForm = false;
+	} else{
+		phone.style.border = 'initial';
 	}
 
 		
@@ -38,6 +42,8 @@ function validate(){
 		comment.style.border = '2px solid orange';
 		comment.style.borderRadius = '5px';
 		isValidForm = false;
+	} else{
+		phone.style.border = 'initial';
 	}
 
 	return isValidForm;//повертаємо значення валідності
